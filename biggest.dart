@@ -12,6 +12,5 @@ void main() {
   double somaAB = (a + b + ab.abs()) / 2;
   num ac = (somaAB - c);
   double somaAC = (somaAB + c + (ac.abs())) / 2;
-
-  print('${somaAC.toInt()} eh o maior');
+  stdout.write('${somaAC.toInt()} eh o maior\n');
 }
